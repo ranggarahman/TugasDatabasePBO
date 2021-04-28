@@ -3,7 +3,7 @@ Project untuk Pemrograman Berorientasi Objek
 
 Disini telah ditambahkan fungsi login dan signup untuk user menggunakan SQL database (folder LoginDB menyimpan .mdf dan lainnya).
 
-![LoginSucceed](https://user-images.githubusercontent.com/79177708/116429693-4e655780-a870-11eb-8193-30f91b9dd3b1.jpg)
+![LoginSucceed](https://user-images.githubusercontent.com/79177708/116429693-4e655780-a870-11eb-8193-30f91b9dd3b1.jpg)![SignUpSucceed](https://user-images.githubusercontent.com/79177708/116430489-16aadf80-a871-11eb-9c2d-8100189ab831.jpg)
 
 Rangga Aulia Rahman
 
