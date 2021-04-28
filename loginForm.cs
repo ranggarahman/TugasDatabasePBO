@@ -13,7 +13,7 @@ namespace PeramalCuaca
 {
     public partial class loginForm : Form
     {
-        string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\OOP\LoginDB\LoginDB.mdf;Integrated Security=True;Connect Timeout=30";
+        string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\ASUS\source\repos\PeramalCuaca\LoginDB\LoginDB.mdf;Integrated Security=True;Connect Timeout=30";
         public loginForm()
         {
             InitializeComponent();
