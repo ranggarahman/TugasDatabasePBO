@@ -1,5 +1,5 @@
-# UTS PBO
-Project UTS untuk Pemrograman Berorientasi Objek
+# Project Individu PBO
+Project untuk Pemrograman Berorientasi Objek
 
 Disini telah ditambahkan fungsi login dan signup untuk user menggunakan SQL database.
 
