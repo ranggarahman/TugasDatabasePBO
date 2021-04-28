@@ -56,6 +56,7 @@ namespace PeramalCuaca
             sqlDataAdapter.Fill(dataTable);
             if(dataTable.Rows.Count == 1)
             {
+                MessageBox.Show("Login berhasil");
                 Form1 objForm1 = new Form1();
                 this.Hide();
                 objForm1.Show();
