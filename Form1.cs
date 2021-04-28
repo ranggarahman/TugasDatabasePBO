@@ -48,10 +48,12 @@ namespace PeramalCuaca
             detailcuaca dtl = new detailcuaca();
             //kelas diatas memiliki Prinsip SOLID : Single Responsibility Principle, karena kewajibannya
             //hanya menyimpan properti detail cuaca
+            //http://api.weatherapi.com/v1/forecast.xml?key=d03903d1f8894aa4aa840215212704&q={0}&days=1&aqi=no&alerts=no
+
 
             dtl.kota = txtcity.Text;
 
-            string url = string.Format("http://api.weatherapi.com/v1/forecast.xml?key=cddd71fbe27a4522818170642210804&q={0}&days=1&aqi=no&alerts=no", dtl.kota);
+            string url = string.Format("http://api.weatherapi.com/v1/forecast.xml?key=d03903d1f8894aa4aa840215212704&q={0}&days=1&aqi=no&alerts=no", dtl.kota);
 
             XDocument doc = XDocument.Load(url);
 
@@ -122,7 +124,7 @@ namespace PeramalCuaca
             dt.Columns.Add("Icon", typeof(string));
 
             kota = txtcity.Text;
-            string url = string.Format("http://api.weatherapi.com/v1/forecast.xml?key=cddd71fbe27a4522818170642210804&q={0}&days=7&aqi=no&alerts=no", kota);
+            string url = string.Format("http://api.weatherapi.com/v1/forecast.xml?key=d03903d1f8894aa4aa840215212704&q={0}&days=7&aqi=no&alerts=no", kota);
 
             XDocument doc = XDocument.Load(url);
             foreach (var npc in doc.Descendants("forecastday")) //loop untuk mengambil data API.
@@ -206,6 +208,11 @@ namespace PeramalCuaca
             {
                 ListePanel[++i].BringToFront();
             }
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
