@@ -1,5 +1,5 @@
-# Project Mandiri PBO
-Project mandiri untuk Pemrograman Berorientasi Objek
+# UTS PBO
+Project UTS untuk Pemrograman Berorientasi Objek
 
 Disini telah ditambahkan fungsi login dan signup untuk user menggunakan SQL database.
 
